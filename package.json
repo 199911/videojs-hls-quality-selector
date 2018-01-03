@@ -19,7 +19,7 @@
     "build:js:rollup-modules": "rollup -c scripts/modules.rollup.config.js",
     "build:js:rollup-umd": "rollup -c scripts/umd.rollup.config.js",
     "build:js:uglify": "uglifyjs dist/videojs-hls-quality-selector.js --comments --mangle --compress  -o dist/videojs-hls-quality-selector.min.js",
-    "build:test": "rollup -c scripts/test.rollup.config.js",
+    "build-test": "rollup -c scripts/test.rollup.config.js",
     "clean": "rimraf dist test/dist",
     "postclean": "mkdirp dist test/dist",
     "docs": "npm-run-all docs:*",
